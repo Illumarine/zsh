@@ -30,6 +30,9 @@
 #include "zutil.mdh"
 #include "zutil.pro"
 
+// Add this line to fix compile bug in Illumarine
+extern void set_list_array(char* name, LinkList l);
+
 typedef struct {
     char **match;
     char **mbegin;
